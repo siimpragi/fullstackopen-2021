@@ -9,7 +9,11 @@ const PersonForm = ({ addPerson }) => {
 
   const handleAddPerson = (event) => {
     event.preventDefault();
-    addPerson(newName, newNumber);
+    const personObject = {
+      name: newName,
+      number: newNumber,
+    };
+    addPerson(personObject);
   };
 
   return (
