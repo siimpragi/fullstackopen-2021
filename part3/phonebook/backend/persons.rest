@@ -38,3 +38,12 @@ Content-Type: application/json
     "name": "Dan Abramov",
     "number": "555-555"
 }
+
+###
+PUT http://localhost:3001/api/persons/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Is Herku failing because I removed `PROJECT_PATH` var from its dashboard?",
+    "number": "666-666"
+}
